@@ -1,0 +1,69 @@
+body{
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  text-transform: capitalize;
+  font-family:cursive;
+}
+.App
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+.searchinput{
+  width: 500px;
+  margin-top: 20px;
+  height: 28px;
+  border: none;
+  outline: none;
+}
+.searchbar{
+  margin-left:5px ;
+  width: 80px;
+  height: 29px;
+  background: black;
+  border: none;
+  color: white;
+  outline: none;
+}
+.image
+{
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+.title
+{
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 400;
+}
+.calorie
+{
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  
+}
+.ingred
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid black;
+}
+.list
+{
+  padding: 10px;
+ 
+  font-size: 17px;
+}
+.ingredtitle{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+  font-weight: 300;
+}
