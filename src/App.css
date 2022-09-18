@@ -26,6 +26,7 @@ body{
   border: none;
   color: white;
   outline: none;
+  cursor:pointer;
 }
 .image
 {
